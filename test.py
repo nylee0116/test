@@ -9,4 +9,5 @@ def word_count(file_path: str) -> dict:
             for w in words:
                 word = w.lower()
                 counts[word] = counts.get(word, 0) + 1
-return counts
+
+    return counts
